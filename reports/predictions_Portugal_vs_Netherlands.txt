@@ -1,0 +1,55 @@
+============================================================
+  PORTUGAL vs NETHERLANDS
+  2026-06-19  |  FIFA World Cup
+  ELO: 1943 vs 1917
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Portugal                35.3%  [#######-------------]
+  Empate                  38.8%  [#######-------------]
+  Netherlands             25.9%  [#####---------------]
+
+  [MC simul.]
+  Portugal                50.6%
+  Empate                  24.0%
+  Netherlands             25.3%
+
+  FAVORITO: Empate  (38.8%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Portugal: 1.69 goles/partido
+  Netherlands: 1.12 goles/partido
+  Total estimado: 2.80
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Portugal 1-1 Netherlands   11.39%
+   2. Portugal 1-0 Netherlands   10.35%
+   3. Portugal 2-1 Netherlands   9.55%
+   4. Portugal 2-0 Netherlands   8.52%
+   5. Portugal 0-1 Netherlands   6.79%
+   6. Portugal 1-2 Netherlands   6.33%
+   7. Portugal 0-0 Netherlands   6.00%
+   8. Portugal 2-2 Netherlands   5.41%
+   9. Portugal 3-1 Netherlands   5.40%
+  10. Portugal 3-0 Netherlands   4.86%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        53.1%
+  P(Ambos anotan):          54.7%
+  P(Porteria en cero Portugal): 32.7%
+  P(Porteria en cero Netherland): 18.6%
+  P(Portugal 2+ goles):     50.0%
+  P(Netherland 2+ goles):     30.8%
+  Promedio total goles MC:  2.80
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        18.6%  ######           32.7%  ##########
+  1        31.3%  ##########       36.5%  ############
+  2        26.2%  ########         20.4%  ######
+  3        14.7%  ####              7.6%  ##
+  4         6.2%  ##                2.1%  
+  5         2.1%                    0.5%  
+  6         0.6%                    0.1%  
+  7         0.1%                    0.0%  
+============================================================

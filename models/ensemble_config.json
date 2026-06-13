@@ -1,0 +1,36 @@
+{
+  "type": "stacking",
+  "base_models": [
+    "catboost",
+    "xgboost",
+    "lightgbm"
+  ],
+  "meta_learner_clf": "logistic_regression",
+  "meta_learner_reg": "ridge",
+  "resultado": {
+    "catboost_test": 0.6369426751592356,
+    "xgboost_test": 0.6560509554140127,
+    "lightgbm_test": 0.660828025477707,
+    "ensemble_test": 0.6624203821656051,
+    "improvement": 0.02547770700636942
+  },
+  "goals_home": {
+    "catboost_mae": 1.0019656417092997,
+    "ensemble_mae": 1.0378474221051037,
+    "catboost_r2": 0.3896589720345588,
+    "ensemble_r2": 0.2778879578218182
+  },
+  "goals_away": {
+    "catboost_mae": 0.8475668203215866,
+    "ensemble_mae": 0.8496964310473859,
+    "catboost_r2": 0.4012853444526052,
+    "ensemble_r2": 0.31417634112862736
+  },
+  "over25": {
+    "catboost_auc": 0.7260162601626017,
+    "ensemble_auc": 0.7078556910569105,
+    "catboost_acc": 0.6687898089171974,
+    "ensemble_acc": 0.6624203821656051
+  },
+  "elapsed_s": 42.8
+}

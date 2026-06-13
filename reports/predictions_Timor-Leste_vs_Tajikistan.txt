@@ -1,0 +1,60 @@
+============================================================
+  TIMOR-LESTE vs TAJIKISTAN
+  2025-11-18  |  AFC Asian Cup qualification
+  ELO: 1025 vs 1455
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Timor-Leste             10.9%  [##------------------]
+  Empate                  16.1%  [###-----------------]
+  Tajikistan              73.1%  [##############------]
+
+  [MC simul.]
+  Timor-Leste              1.8%
+  Empate                   5.1%
+  Tajikistan              93.1%
+
+  FAVORITO: Tajikistan  (73.1%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Timor-Leste: 0.53 goles/partido
+  Tajikistan: 3.93 goles/partido
+  Total estimado: 4.45
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Timor-Leste 0-3 Tajikistan   11.85%
+   2. Timor-Leste 0-4 Tajikistan   11.69%
+   3. Timor-Leste 0-5 Tajikistan   9.07%
+   4. Timor-Leste 0-2 Tajikistan   9.02%
+   5. Timor-Leste 1-3 Tajikistan   6.04%
+   6. Timor-Leste 1-4 Tajikistan   6.04%
+   7. Timor-Leste 0-6 Tajikistan   5.89%
+   8. Timor-Leste 1-5 Tajikistan   4.83%
+   9. Timor-Leste 1-2 Tajikistan   4.82%
+  10. Timor-Leste 0-1 Tajikistan   4.55%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        82.1%
+  P(Ambos anotan):          39.9%
+  P(Porteria en cero Timor-Lest): 1.9%
+  P(Porteria en cero Tajikistan): 59.3%
+  P(Timor-Lest 2+ goles):     9.8%
+  P(Tajikistan 2+ goles):     90.4%
+  Promedio total goles MC:  4.45
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        59.3%  ###################      1.9%  
+  1        30.9%  ##########        7.6%  ##
+  2         8.2%  ##               15.3%  #####
+  3         1.4%                   19.8%  ######
+  4         0.2%                   19.7%  ######
+  5         0.0%                   15.4%  #####
+  6         0.0%                    9.9%  ###
+  7         0.0%                    5.6%  #
+
+RESULTADO REAL: Timor-Leste 0-5 Tajikistan
+  Prediccion resultado: CORRECTO
+  Error goles local:    0.53
+  Error goles visita:   1.07
+============================================================

@@ -1,0 +1,55 @@
+============================================================
+  ARGENTINA vs FRANCE
+  2026-06-14  |  FIFA World Cup
+  ELO: 2076 vs 2006
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Argentina               33.1%  [######--------------]
+  Empate                  43.2%  [########------------]
+  France                  23.6%  [####----------------]
+
+  [MC simul.]
+  Argentina               41.6%
+  Empate                  31.0%
+  France                  27.4%
+
+  FAVORITO: Empate  (43.2%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Argentina: 1.12 goles/partido
+  France: 0.85 goles/partido
+  Total estimado: 1.97
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Argentina 1-0 France   15.51%
+   2. Argentina 0-0 France   14.10%
+   3. Argentina 1-1 France   13.40%
+   4. Argentina 0-1 France   11.95%
+   5. Argentina 2-0 France   8.72%
+   6. Argentina 2-1 France   7.37%
+   7. Argentina 1-2 France   5.50%
+   8. Argentina 0-2 France   5.01%
+   9. Argentina 3-0 France   3.30%
+  10. Argentina 2-2 France   3.15%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        31.3%
+  P(Ambos anotan):          38.5%
+  P(Porteria en cero Argentina): 42.8%
+  P(Porteria en cero France): 32.8%
+  P(Argentina 2+ goles):     30.8%
+  P(France 2+ goles):     20.7%
+  Promedio total goles MC:  1.97
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        32.8%  ##########       42.8%  ##############
+  1        36.4%  ############     36.5%  ############
+  2        20.4%  ######           15.3%  #####
+  3         7.7%  ##                4.3%  #
+  4         2.1%                    0.9%  
+  5         0.5%                    0.1%  
+  6         0.1%                    0.0%  
+  7         0.0%                    0.0%  
+============================================================

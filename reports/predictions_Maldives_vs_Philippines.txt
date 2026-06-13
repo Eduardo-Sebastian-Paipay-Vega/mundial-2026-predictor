@@ -1,0 +1,60 @@
+============================================================
+  MALDIVES vs PHILIPPINES
+  2025-11-18  |  AFC Asian Cup qualification
+  ELO: 1116 vs 1340
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Maldives                14.6%  [##------------------]
+  Empate                  27.7%  [#####---------------]
+  Philippines             57.7%  [###########---------]
+
+  [MC simul.]
+  Maldives                 8.8%
+  Empate                  14.8%
+  Philippines             76.4%
+
+  FAVORITO: Philippines  (57.7%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Maldives: 0.75 goles/partido
+  Philippines: 2.56 goles/partido
+  Total estimado: 3.31
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Maldives 0-2 Philippines   11.89%
+   2. Maldives 0-3 Philippines   10.44%
+   3. Maldives 0-1 Philippines   9.31%
+   4. Maldives 1-2 Philippines   8.71%
+   5. Maldives 1-3 Philippines   7.66%
+   6. Maldives 1-1 Philippines   7.02%
+   7. Maldives 0-4 Philippines   6.56%
+   8. Maldives 1-4 Philippines   4.95%
+   9. Maldives 0-0 Philippines   3.60%
+  10. Maldives 2-2 Philippines   3.39%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        64.3%
+  P(Ambos anotan):          48.5%
+  P(Porteria en cero Maldives): 7.8%
+  P(Porteria en cero Philippine): 47.3%
+  P(Maldives 2+ goles):     17.5%
+  P(Philippine 2+ goles):     72.4%
+  Promedio total goles MC:  3.31
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        47.3%  ###############      7.8%  ##
+  1        35.3%  ###########      19.8%  ######
+  2        13.4%  ####             25.0%  ########
+  3         3.3%  #                21.9%  #######
+  4         0.6%                   13.9%  ####
+  5         0.1%                    7.0%  ##
+  6         0.0%                    3.0%  #
+  7         0.0%                    1.1%  
+
+RESULTADO REAL: Maldives 0-2 Philippines
+  Prediccion resultado: CORRECTO
+  Error goles local:    0.75
+  Error goles visita:   0.56
+============================================================

@@ -1,0 +1,45 @@
+{
+  "catboost": {
+    "best_params": {
+      "lr": 0.02384080756773536,
+      "depth": 8,
+      "l2": 8.394787203812864,
+      "iters": 385,
+      "subsample": 0.5851424448377822,
+      "rand_str": 0.1449050452832099
+    },
+    "best_accuracy": 0.61875,
+    "n_trials": 50,
+    "elapsed_s": 361.1
+  },
+  "xgboost": {
+    "best_params": {
+      "lr": 0.0254140225923954,
+      "depth": 7,
+      "subsample": 0.5603807774844523,
+      "colsample": 0.9378229236687762,
+      "gamma": 1.1885922954809331,
+      "min_child": 4,
+      "alpha": 4.209586028125088,
+      "lambda": 1.7243604296812487
+    },
+    "best_accuracy": 0.6140625,
+    "n_trials": 50,
+    "elapsed_s": 185.6
+  },
+  "lightgbm": {
+    "best_params": {
+      "lr": 0.016883864515461287,
+      "leaves": 51,
+      "min_data": 40,
+      "l1": 9.319908827430606,
+      "l2": 1.8186227068711986,
+      "feat_frac": 0.6968767765697252,
+      "bag_frac": 0.8749660729838936,
+      "bag_freq": 6
+    },
+    "best_accuracy": 0.6140625,
+    "n_trials": 50,
+    "elapsed_s": 339.3
+  }
+}

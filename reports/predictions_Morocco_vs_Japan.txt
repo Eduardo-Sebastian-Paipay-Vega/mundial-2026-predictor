@@ -1,0 +1,55 @@
+============================================================
+  MOROCCO vs JAPAN
+  2026-06-17  |  FIFA World Cup
+  ELO: 1870 vs 1862
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Morocco                 35.2%  [#######-------------]
+  Empate                  37.7%  [#######-------------]
+  Japan                   27.1%  [#####---------------]
+
+  [MC simul.]
+  Morocco                 46.7%
+  Empate                  26.1%
+  Japan                   27.2%
+
+  FAVORITO: Empate  (37.7%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Morocco: 1.49 goles/partido
+  Japan: 1.07 goles/partido
+  Total estimado: 2.56
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Morocco 1-1 Japan   12.31%
+   2. Morocco 1-0 Japan   11.72%
+   3. Morocco 2-1 Japan   9.14%
+   4. Morocco 2-0 Japan   8.54%
+   5. Morocco 0-1 Japan   8.31%
+   6. Morocco 0-0 Japan   7.78%
+   7. Morocco 1-2 Japan   6.42%
+   8. Morocco 2-2 Japan   5.05%
+   9. Morocco 3-1 Japan   4.52%
+  10. Morocco 0-2 Japan   4.42%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        46.9%
+  P(Ambos anotan):          50.7%
+  P(Porteria en cero Morocco): 34.4%
+  P(Porteria en cero Japan): 22.7%
+  P(Morocco 2+ goles):     43.7%
+  P(Japan 2+ goles):     29.0%
+  Promedio total goles MC:  2.55
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        22.7%  #######          34.4%  ###########
+  1        33.6%  ###########      36.6%  ############
+  2        25.1%  ########         19.5%  ######
+  3        12.3%  ####              7.2%  ##
+  4         4.5%  #                 1.8%  
+  5         1.4%                    0.4%  
+  6         0.4%                    0.1%  
+  7         0.1%                    0.0%  
+============================================================

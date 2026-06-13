@@ -1,0 +1,60 @@
+============================================================
+  LAOS vs VIETNAM
+  2025-11-19  |  AFC Asian Cup qualification
+  ELO: 1049 vs 1471
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Laos                    12.2%  [##------------------]
+  Empate                  19.7%  [###-----------------]
+  Vietnam                 68.1%  [#############-------]
+
+  [MC simul.]
+  Laos                     5.9%
+  Empate                  14.2%
+  Vietnam                 79.9%
+
+  FAVORITO: Vietnam  (68.1%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Laos: 0.51 goles/partido
+  Vietnam: 2.42 goles/partido
+  Total estimado: 2.93
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Laos 0-2 Vietnam   15.80%
+   2. Laos 0-1 Vietnam   13.05%
+   3. Laos 0-3 Vietnam   12.61%
+   4. Laos 1-2 Vietnam   7.98%
+   5. Laos 0-4 Vietnam   7.56%
+   6. Laos 1-3 Vietnam   6.55%
+   7. Laos 1-1 Vietnam   6.48%
+   8. Laos 0-0 Vietnam   5.40%
+   9. Laos 1-4 Vietnam   3.82%
+  10. Laos 0-5 Vietnam   3.75%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        55.9%
+  P(Ambos anotan):          36.2%
+  P(Porteria en cero Laos): 8.9%
+  P(Porteria en cero Vietnam): 60.4%
+  P(Laos 2+ goles):     9.2%
+  P(Vietnam 2+ goles):     69.6%
+  Promedio total goles MC:  2.92
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        60.4%  ####################      8.9%  ##
+  1        30.4%  ##########       21.5%  #######
+  2         7.8%  ##               26.1%  ########
+  3         1.3%                   21.1%  #######
+  4         0.2%                   12.6%  ####
+  5         0.0%                    6.1%  ##
+  6         0.0%                    2.4%  
+  7         0.0%                    0.9%  
+
+RESULTADO REAL: Laos 0-2 Vietnam
+  Prediccion resultado: CORRECTO
+  Error goles local:    0.51
+  Error goles visita:   0.42
+============================================================

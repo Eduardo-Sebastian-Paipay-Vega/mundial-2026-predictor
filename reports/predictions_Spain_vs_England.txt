@@ -1,0 +1,55 @@
+============================================================
+  SPAIN vs ENGLAND
+  2026-06-16  |  FIFA World Cup
+  ELO: 2122 vs 1961
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Spain                   43.9%  [########------------]
+  Empate                  37.4%  [#######-------------]
+  England                 18.8%  [###-----------------]
+
+  [MC simul.]
+  Spain                   52.4%
+  Empate                  24.0%
+  England                 23.6%
+
+  FAVORITO: Spain  (43.9%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Spain: 1.70 goles/partido
+  England: 1.06 goles/partido
+  Total estimado: 2.75
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Spain 1-1 England   11.45%
+   2. Spain 1-0 England   10.76%
+   3. Spain 2-1 England   9.62%
+   4. Spain 2-0 England   9.26%
+   5. Spain 0-1 England   6.77%
+   6. Spain 0-0 England   6.29%
+   7. Spain 1-2 England   6.01%
+   8. Spain 3-1 England   5.50%
+   9. Spain 3-0 England   5.20%
+  10. Spain 2-2 England   5.09%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        51.8%
+  P(Ambos anotan):          53.2%
+  P(Porteria en cero Spain): 34.7%
+  P(Porteria en cero England): 18.4%
+  P(Spain 2+ goles):     50.6%
+  P(England 2+ goles):     28.5%
+  Promedio total goles MC:  2.75
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        18.4%  ######           34.7%  ###########
+  1        31.0%  ##########       36.8%  ############
+  2        26.4%  ########         19.4%  ######
+  3        15.0%  #####             6.8%  ##
+  4         6.4%  ##                1.8%  
+  5         2.1%                    0.4%  
+  6         0.6%                    0.1%  
+  7         0.1%                    0.0%  
+============================================================

@@ -1,0 +1,53 @@
+# Secretos — NUNCA commitear
+.streamlit/secrets.toml
+.env
+
+# .env.example SI debe subirse (es la plantilla sin valores reales)
+# .env.example  ← no excluir
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+
+# Logs de entrenamiento (no necesarios en produccion)
+logs/
+*.log
+catboost_info/
+
+# Streamlit cache local
+.streamlit/cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datos externos / repositorios embebidos
+statsbomb_data/
+
+# Datos de entrenamiento intermedios (no necesarios para la API)
+data/features_correlation_matrix.csv
+data/log_*.txt
+data/pipeline.log
+data/feature_importance_*.csv
+
+# Notebooks
+*.ipynb
+
+# Plots locales (se regeneran)
+plots/

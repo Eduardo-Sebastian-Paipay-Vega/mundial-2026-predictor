@@ -1,0 +1,55 @@
+============================================================
+  UNITED STATES vs MEXICO
+  2026-06-18  |  FIFA World Cup
+  ELO: 1772 vs 1871
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  United States           24.2%  [####----------------]
+  Empate                  38.3%  [#######-------------]
+  Mexico                  37.5%  [#######-------------]
+
+  [MC simul.]
+  United States           37.6%
+  Empate                  28.3%
+  Mexico                  34.2%
+
+  FAVORITO: Empate  (38.3%)
+
+GOLES ESPERADOS (lambda Poisson):
+  United States: 1.18 goles/partido
+  Mexico: 1.13 goles/partido
+  Total estimado: 2.31
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. United States 1-1 Mexico   13.23%
+   2. United States 1-0 Mexico   11.84%
+   3. United States 0-1 Mexico   10.96%
+   4. United States 0-0 Mexico   9.89%
+   5. United States 2-1 Mexico   7.94%
+   6. United States 1-2 Mexico   7.43%
+   7. United States 2-0 Mexico   7.01%
+   8. United States 0-2 Mexico   6.33%
+   9. United States 2-2 Mexico   4.45%
+  10. United States 3-1 Mexico   3.03%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        40.7%
+  P(Ambos anotan):          47.1%
+  P(Porteria en cero United Sta): 32.5%
+  P(Porteria en cero Mexico): 30.3%
+  P(United Sta 2+ goles):     33.3%
+  P(Mexico 2+ goles):     31.1%
+  Promedio total goles MC:  2.31
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        30.3%  ##########       32.5%  ##########
+  1        36.4%  ############     36.4%  ############
+  2        21.6%  #######          20.7%  ######
+  3         8.4%  ##                7.7%  ##
+  4         2.6%                    2.2%  
+  5         0.6%                    0.4%  
+  6         0.1%                    0.1%  
+  7         0.0%                    0.0%  
+============================================================

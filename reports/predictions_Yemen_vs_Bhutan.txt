@@ -1,0 +1,60 @@
+============================================================
+  YEMEN vs BHUTAN
+  2025-11-18  |  AFC Asian Cup qualification
+  ELO: 1328 vs 984
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Yemen                   70.1%  [##############------]
+  Empate                  19.2%  [###-----------------]
+  Bhutan                  10.7%  [##------------------]
+
+  [MC simul.]
+  Yemen                   94.9%
+  Empate                   4.0%
+  Bhutan                   1.1%
+
+  FAVORITO: Yemen  (70.1%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Yemen: 4.02 goles/partido
+  Bhutan: 0.39 goles/partido
+  Total estimado: 4.42
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Yemen 4-0 Bhutan   13.39%
+   2. Yemen 3-0 Bhutan   13.16%
+   3. Yemen 5-0 Bhutan   10.54%
+   4. Yemen 2-0 Bhutan   9.62%
+   5. Yemen 6-0 Bhutan   7.08%
+   6. Yemen 4-1 Bhutan   5.22%
+   7. Yemen 3-1 Bhutan   5.10%
+   8. Yemen 1-0 Bhutan   4.95%
+   9. Yemen 5-1 Bhutan   4.19%
+  10. Yemen 7-0 Bhutan   4.12%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        81.8%
+  P(Ambos anotan):          31.8%
+  P(Porteria en cero Yemen): 67.7%
+  P(Porteria en cero Bhutan): 1.8%
+  P(Yemen 2+ goles):     90.9%
+  P(Bhutan 2+ goles):     5.9%
+  Promedio total goles MC:  4.41
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0         1.8%                   67.7%  ######################
+  1         7.3%  ##               26.5%  ########
+  2        14.2%  ####              5.1%  #
+  3        19.4%  ######            0.7%  
+  4        19.8%  ######            0.1%  
+  5        15.6%  #####             0.0%  
+  6        10.5%  ###               0.0%  
+  7         6.1%  ##                0.0%  
+
+RESULTADO REAL: Yemen 7-1 Bhutan
+  Prediccion resultado: CORRECTO
+  Error goles local:    2.98
+  Error goles visita:   0.61
+============================================================

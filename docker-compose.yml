@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mundial2026-predictor:latest
+    container_name: mundial2026-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+
+    # Variables de entorno desde el archivo .env (nunca se sube al repo)
+    env_file:
+      - .env
+
+    # Variables con valores por defecto (pueden sobreescribirse en .env)
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - ENVIRONMENT=${ENVIRONMENT:-production}
+
+    # Volumes: modelos y datos montados desde el host
+    # Permite actualizar modelos sin reconstruir la imagen
+    volumes:
+      - ./models:/app/models:ro
+      - ./data:/app/data:ro
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s

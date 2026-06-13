@@ -1,0 +1,38 @@
+{
+  "total_filas": 4401,
+  "total_columnas": 14,
+  "columnas": [
+    "date",
+    "team_home",
+    "team_away",
+    "goals_home",
+    "goals_away",
+    "competition",
+    "city",
+    "country",
+    "neutral",
+    "match_id",
+    "resultado",
+    "elo_home",
+    "elo_away",
+    "diff_elo"
+  ],
+  "fecha_rango": "2017-03-23 a 2025-11-19",
+  "goles_completos_pct": 100.0,
+  "nulos_por_columna": {
+    "date": 0,
+    "team_home": 0,
+    "team_away": 0,
+    "goals_home": 0,
+    "goals_away": 0,
+    "competition": 0,
+    "city": 0,
+    "country": 0,
+    "neutral": 0,
+    "match_id": 0,
+    "resultado": 0,
+    "elo_home": 0,
+    "elo_away": 0,
+    "diff_elo": 0
+  }
+}

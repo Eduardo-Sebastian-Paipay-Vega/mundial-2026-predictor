@@ -1,0 +1,56 @@
+{
+  "modelo_resultado": {
+    "valid_accuracy": 0.5984,
+    "test_accuracy": 0.6369,
+    "valid_f1_macro": 0.5589,
+    "test_f1_macro": 0.5877,
+    "best_iteration": 37,
+    "class_mapping": {
+      "-1 (vis gana)": 0,
+      "0 (empate)": 1,
+      "1 (local gana)": 2
+    },
+    "confusion_matrix_test": [
+      [
+        136,
+        48,
+        14
+      ],
+      [
+        41,
+        46,
+        38
+      ],
+      [
+        30,
+        57,
+        218
+      ]
+    ]
+  },
+  "modelo_goals_home": {
+    "valid_mae": 0.9538,
+    "test_mae": 0.9908,
+    "valid_rmse": 1.2435,
+    "test_rmse": 1.2969,
+    "test_r2": 0.3935,
+    "best_iteration": 100,
+    "train_mean_y": 1.625
+  },
+  "modelo_goals_away": {
+    "valid_mae": 0.813,
+    "test_mae": 0.8476,
+    "valid_rmse": 1.0525,
+    "test_rmse": 1.1295,
+    "test_r2": 0.4013,
+    "best_iteration": 66,
+    "train_mean_y": 1.183
+  },
+  "modelo_over25": {
+    "valid_auc": 0.7191,
+    "test_auc": 0.726,
+    "test_accuracy": 0.6688,
+    "test_f1": 0.681,
+    "best_iteration": 105
+  }
+}

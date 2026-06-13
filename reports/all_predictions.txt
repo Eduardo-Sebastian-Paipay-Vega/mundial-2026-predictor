@@ -1,0 +1,27 @@
+======================================================================
+  MUNDIAL 2026 - PREDICCIONES COMPLETAS
+  Generado: 2026-06-12 13:12
+  Partidos: 14  |  MC simulaciones: 100,000
+======================================================================
+
+PARTIDO                              LOCAL%  EMPATE%  VISITA%       xG       FAVO
+--------------------------------------------------------------------------------
+Laos vs Vietnam                       12.2%    19.7%    68.1%   0.5-2.4     Vietnam
+Maldives vs Philippines               14.6%    27.7%    57.7%   0.7-2.6  Philippine
+Timor-Leste vs Tajikistan             10.9%    16.1%    73.1%   0.5-3.9  Tajikistan
+Yemen vs Bhutan                       70.1%    19.2%    10.7%   4.0-0.4       Yemen
+Brunei vs Lebanon                     10.8%    16.1%    73.1%   0.4-2.9     Lebanon
+Bangladesh vs India                   18.7%    39.0%    42.3%   0.8-1.2       India
+Hong Kong vs Singapore                35.7%    39.7%    24.6%   1.6-0.8      Empate
+Sri Lanka vs Thailand                 12.9%    22.6%    64.5%   0.6-2.0    Thailand
+Argentina vs France                   33.1%    43.2%    23.6%   1.1-0.8      Empate
+Brazil vs Germany                     37.2%    40.1%    22.7%   1.4-1.0      Empate
+Spain vs England                      43.9%    37.4%    18.8%   1.7-1.1       Spain
+Morocco vs Japan                      35.2%    37.7%    27.1%   1.5-1.1      Empate
+United States vs Mexico               24.2%    38.3%    37.5%   1.2-1.1      Empate
+Portugal vs Netherlands               35.3%    38.8%    25.9%   1.7-1.1      Empate
+
+VALIDACION (8 partidos completados):
+  Accuracy resultado: 75.0%  (6/8)
+
+======================================================================

@@ -1,0 +1,68 @@
+{
+  "cv_folds": 5,
+  "cv_results": [
+    {
+      "fold": 2,
+      "train_start": "2017-03-23",
+      "train_end": "2019-12-14",
+      "test_start": "2020-09-03",
+      "test_end": "2020-09-08",
+      "n_train": 1252,
+      "n_test": 54,
+      "accuracy": 0.537
+    },
+    {
+      "fold": 3,
+      "train_start": "2017-03-23",
+      "train_end": "2021-03-31",
+      "test_start": "2021-05-28",
+      "test_end": "2022-06-02",
+      "n_train": 1553,
+      "n_test": 723,
+      "accuracy": 0.6501
+    },
+    {
+      "fold": 4,
+      "train_start": "2017-03-23",
+      "train_end": "2022-09-27",
+      "test_start": "2022-11-20",
+      "test_end": "2024-02-10",
+      "n_train": 2522,
+      "n_test": 662,
+      "accuracy": 0.6118
+    },
+    {
+      "fold": 5,
+      "train_start": "2017-03-23",
+      "train_end": "2024-02-10",
+      "test_start": "2024-03-21",
+      "test_end": "2025-11-19",
+      "n_train": 3184,
+      "n_test": 1217,
+      "accuracy": 0.6368
+    }
+  ],
+  "cv_mean_accuracy": 0.6089,
+  "cv_std_accuracy": 0.0505,
+  "final_evaluation": {
+    "accuracy_uncalibrated": 0.6369,
+    "accuracy_calibrated": 0.6592,
+    "auc_by_class": {
+      "Local": {
+        "uncalibrated": 0.8633,
+        "calibrated": 0.863
+      },
+      "Empate": {
+        "uncalibrated": 0.6565,
+        "calibrated": 0.6612
+      },
+      "Visitante": {
+        "uncalibrated": 0.8534,
+        "calibrated": 0.8536
+      }
+    },
+    "brier_uncalibrated": 0.1645,
+    "brier_calibrated": 0.1553
+  },
+  "calibration_method": "sigmoid"
+}

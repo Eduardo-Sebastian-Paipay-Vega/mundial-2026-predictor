@@ -1,0 +1,60 @@
+============================================================
+  BRUNEI vs LEBANON
+  2025-11-18  |  AFC Asian Cup qualification
+  ELO: 1018 vs 1464
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Brunei                  10.8%  [##------------------]
+  Empate                  16.1%  [###-----------------]
+  Lebanon                 73.1%  [##############------]
+
+  [MC simul.]
+  Brunei                   3.1%
+  Empate                   9.4%
+  Lebanon                 87.5%
+
+  FAVORITO: Lebanon  (73.1%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Brunei: 0.41 goles/partido
+  Lebanon: 2.92 goles/partido
+  Total estimado: 3.33
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Brunei 0-2 Lebanon   15.25%
+   2. Brunei 0-3 Lebanon   14.92%
+   3. Brunei 0-4 Lebanon   10.72%
+   4. Brunei 0-1 Lebanon   10.52%
+   5. Brunei 0-5 Lebanon   6.43%
+   6. Brunei 1-2 Lebanon   6.19%
+   7. Brunei 1-3 Lebanon   6.08%
+   8. Brunei 1-4 Lebanon   4.39%
+   9. Brunei 1-1 Lebanon   4.30%
+  10. Brunei 0-0 Lebanon   3.60%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        64.5%
+  P(Ambos anotan):          31.7%
+  P(Porteria en cero Brunei): 5.5%
+  P(Porteria en cero Lebanon): 66.4%
+  P(Brunei 2+ goles):     6.5%
+  P(Lebanon 2+ goles):     78.7%
+  Promedio total goles MC:  3.32
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        66.4%  ######################      5.5%  #
+  1        27.0%  #########        15.8%  #####
+  2         5.6%  #                23.0%  #######
+  3         0.8%                   22.4%  #######
+  4         0.1%                   16.2%  #####
+  5         0.0%                    9.7%  ###
+  6         0.0%                    4.5%  #
+  7         0.0%                    1.9%  
+
+RESULTADO REAL: Brunei 0-3 Lebanon
+  Prediccion resultado: CORRECTO
+  Error goles local:    0.41
+  Error goles visita:   0.08
+============================================================

@@ -1,0 +1,60 @@
+============================================================
+  HONG KONG vs SINGAPORE
+  2025-11-18  |  AFC Asian Cup qualification
+  ELO: 1363 vs 1318
+============================================================
+
+PROBABILIDADES RESULTADO (modelo + simulacion MC):
+  Hong Kong               35.7%  [#######-------------]
+  Empate                  39.7%  [#######-------------]
+  Singapore               24.6%  [####----------------]
+
+  [MC simul.]
+  Hong Kong               58.4%
+  Empate                  24.1%
+  Singapore               17.5%
+
+  FAVORITO: Empate  (39.7%)
+
+GOLES ESPERADOS (lambda Poisson):
+  Hong Kong: 1.65 goles/partido
+  Singapore: 0.78 goles/partido
+  Total estimado: 2.42
+
+MARCADORES MAS PROBABLES (Top 10 de 100,000 sim.):
+   1. Hong Kong 1-0 Singapore   14.72%
+   2. Hong Kong 2-0 Singapore   12.12%
+   3. Hong Kong 1-1 Singapore   11.31%
+   4. Hong Kong 2-1 Singapore   9.31%
+   5. Hong Kong 0-0 Singapore   8.85%
+   6. Hong Kong 0-1 Singapore   6.87%
+   7. Hong Kong 3-0 Singapore   6.54%
+   8. Hong Kong 3-1 Singapore   5.25%
+   9. Hong Kong 1-2 Singapore   4.42%
+  10. Hong Kong 2-2 Singapore   3.46%
+
+ESTADISTICAS ADICIONALES:
+  P(Over 2.5 goles):        43.4%
+  P(Ambos anotan):          43.4%
+  P(Porteria en cero Hong Kong): 46.2%
+  P(Porteria en cero Singapore): 19.2%
+  P(Hong Kong 2+ goles):     48.9%
+  P(Singapore 2+ goles):     18.0%
+  Promedio total goles MC:  2.42
+
+DISTRIBUCION GOLES (Monte Carlo 100k sim.):
+  Goles   Local%  Visita%
+  0        19.2%  ######           46.2%  ###############
+  1        31.8%  ##########       35.8%  ###########
+  2        26.0%  ########         13.7%  ####
+  3        14.4%  ####              3.5%  #
+  4         5.9%  #                 0.7%  
+  5         1.9%                    0.1%  
+  6         0.6%                    0.0%  
+  7         0.1%                    0.0%  
+
+RESULTADO REAL: Hong Kong 1-2 Singapore
+  Prediccion resultado: INCORRECTO
+  Error goles local:    0.65
+  Error goles visita:   1.22
+============================================================

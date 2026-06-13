@@ -1,0 +1,856 @@
+[
+  {
+    "feature": "elo_home",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_home",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_away",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_away",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_diff",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_diff",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_ratio",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_ratio",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_home_rank",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_home_rank",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_away_rank",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_away_rank",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_momentum_3m_home",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_momentum_3m_home",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_momentum_3m_away",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_momentum_3m_away",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_momentum_6m_home",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_momentum_6m_home",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_momentum_6m_away",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_momentum_6m_away",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_consistency_home",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_consistency_home",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "elo_consistency_away",
+    "group": "G1_ELO_Strength",
+    "description": "ELO feature: elo_consistency_away",
+    "range": "[1200,2800] o derivado",
+    "critical": true
+  },
+  {
+    "feature": "goals_for_avg3_home",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio goals_for ultimos 3 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_for_avg3_away",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio goals_for ultimos 3 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_against_avg3_home",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio goals_against ultimos 3 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_against_avg3_away",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio goals_against ultimos 3 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "win_avg3_home",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio win ultimos 3 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "win_avg3_away",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio win ultimos 3 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "draw_avg3_home",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio draw ultimos 3 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "draw_avg3_away",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio draw ultimos 3 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "loss_avg3_home",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio loss ultimos 3 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "loss_avg3_away",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio loss ultimos 3 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "clean_sheet_avg3_home",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio clean_sheet ultimos 3 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "clean_sheet_avg3_away",
+    "group": "G2_RecentForm_3",
+    "description": "Promedio clean_sheet ultimos 3 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_for_avg5_home",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio goals_for ultimos 5 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "goals_for_avg5_away",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio goals_for ultimos 5 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "goals_against_avg5_home",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio goals_against ultimos 5 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "goals_against_avg5_away",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio goals_against ultimos 5 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "win_avg5_home",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio win ultimos 5 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "win_avg5_away",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio win ultimos 5 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "draw_avg5_home",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio draw ultimos 5 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "draw_avg5_away",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio draw ultimos 5 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "loss_avg5_home",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio loss ultimos 5 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "loss_avg5_away",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio loss ultimos 5 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "clean_sheet_avg5_home",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio clean_sheet ultimos 5 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "clean_sheet_avg5_away",
+    "group": "G2_RecentForm_5",
+    "description": "Promedio clean_sheet ultimos 5 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "goals_for_avg10_home",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio goals_for ultimos 10 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_for_avg10_away",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio goals_for ultimos 10 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_against_avg10_home",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio goals_against ultimos 10 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_against_avg10_away",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio goals_against ultimos 10 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "win_avg10_home",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio win ultimos 10 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "win_avg10_away",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio win ultimos 10 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "draw_avg10_home",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio draw ultimos 10 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "draw_avg10_away",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio draw ultimos 10 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "loss_avg10_home",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio loss ultimos 10 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "loss_avg10_away",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio loss ultimos 10 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "clean_sheet_avg10_home",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio clean_sheet ultimos 10 partidos (pre-match) (equipo local)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "clean_sheet_avg10_away",
+    "group": "G2_RecentForm_10",
+    "description": "Promedio clean_sheet ultimos 10 partidos (pre-match) (equipo visitante)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goal_diff_avg3_home",
+    "group": "G2_RecentForm_3",
+    "description": "Dif goles promedio ultimos 3 partidos (local)",
+    "range": "[-inf,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goal_diff_avg3_away",
+    "group": "G2_RecentForm_3",
+    "description": "Dif goles promedio ultimos 3 partidos (visitante)",
+    "range": "[-inf,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goal_diff_avg5_home",
+    "group": "G2_RecentForm_5",
+    "description": "Dif goles promedio ultimos 5 partidos (local)",
+    "range": "[-inf,inf]",
+    "critical": true
+  },
+  {
+    "feature": "goal_diff_avg5_away",
+    "group": "G2_RecentForm_5",
+    "description": "Dif goles promedio ultimos 5 partidos (visitante)",
+    "range": "[-inf,inf]",
+    "critical": true
+  },
+  {
+    "feature": "goal_diff_avg10_home",
+    "group": "G2_RecentForm_10",
+    "description": "Dif goles promedio ultimos 10 partidos (local)",
+    "range": "[-inf,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goal_diff_avg10_away",
+    "group": "G2_RecentForm_10",
+    "description": "Dif goles promedio ultimos 10 partidos (visitante)",
+    "range": "[-inf,inf]",
+    "critical": false
+  },
+  {
+    "feature": "multi_goal_pct5_home",
+    "group": "G3_Offensive",
+    "description": "% partidos con 2+ goles (ultimos 5)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "multi_goal_pct10_home",
+    "group": "G3_Offensive",
+    "description": "% partidos con 2+ goles (ultimos 10)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "max_goals_scored5_home",
+    "group": "G3_Offensive",
+    "description": "Maximo goles anotados en ultimos 5",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_scored_var5_home",
+    "group": "G3_Offensive",
+    "description": "Varianza goles anotados (ultimos 5)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_scored_var10_home",
+    "group": "G3_Offensive",
+    "description": "Varianza goles anotados (ultimos 10)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "scoring_streak_home",
+    "group": "G3_Offensive",
+    "description": "Partidos seguidos anotando (ultimos 5)",
+    "range": "[0,5]",
+    "critical": false
+  },
+  {
+    "feature": "goals_scored_trend_home",
+    "group": "G3_Offensive",
+    "description": "Pendiente tendencia goles ultimos 7 partidos",
+    "range": "[-inf,inf]",
+    "critical": true
+  },
+  {
+    "feature": "max_goals_conceded5_home",
+    "group": "G4_Defensive",
+    "description": "Maximo goles recibidos ultimos 5",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_conceded_var5_home",
+    "group": "G4_Defensive",
+    "description": "Varianza goles recibidos (ultimos 5)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goals_conceded_var10_home",
+    "group": "G4_Defensive",
+    "description": "Varianza goles recibidos (ultimos 10)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "def_solidity_home",
+    "group": "G4_Defensive",
+    "description": "Solidez defensiva (% porterias 0 ultimos 10)",
+    "range": "[0,1]",
+    "critical": true
+  },
+  {
+    "feature": "def_consistency_home",
+    "group": "G4_Defensive",
+    "description": "Consistencia defensiva (inv varianza ultimos 10)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "goals_conceded_trend_home",
+    "group": "G4_Defensive",
+    "description": "Pendiente tendencia goles recibidos",
+    "range": "[-inf,inf]",
+    "critical": true
+  },
+  {
+    "feature": "vs_strong_defense_home",
+    "group": "G4_Defensive",
+    "description": "Goles recibidos vs oponentes ELO>1700 (ultimos 5)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "is_neutral",
+    "group": "G5_Context",
+    "description": "1 = campo neutral, 0 = tiene local",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "altitude_venue",
+    "group": "G5_Context",
+    "description": "Altitud venue (metros)",
+    "range": "[0,4000]",
+    "critical": false
+  },
+  {
+    "feature": "high_altitude",
+    "group": "G5_Context",
+    "description": "1 = altitud > 1500m",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "days_rest_home",
+    "group": "G5_Context",
+    "description": "Dias descanso equipo local",
+    "range": "[0,365]",
+    "critical": false
+  },
+  {
+    "feature": "days_rest_away",
+    "group": "G5_Context",
+    "description": "Dias descanso equipo visitante",
+    "range": "[0,365]",
+    "critical": false
+  },
+  {
+    "feature": "rest_diff",
+    "group": "G5_Context",
+    "description": "Diferencia dias descanso (local - visita)",
+    "range": "[-365,365]",
+    "critical": false
+  },
+  {
+    "feature": "long_travel_home",
+    "group": "G5_Context",
+    "description": "Proxy viaje largo (campo neutral)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "long_travel_away",
+    "group": "G5_Context",
+    "description": "Proxy viaje largo (campo neutral)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "h2h_wins_home",
+    "group": "G6_H2H",
+    "description": "H2H: wins_home (historico)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "h2h_wins_away",
+    "group": "G6_H2H",
+    "description": "H2H: wins_away (historico)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "h2h_draws",
+    "group": "G6_H2H",
+    "description": "H2H: draws (historico)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "h2h_goals_for_home",
+    "group": "G6_H2H",
+    "description": "H2H: goals_for_home (historico)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "h2h_goals_for_away",
+    "group": "G6_H2H",
+    "description": "H2H: goals_for_away (historico)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "h2h_win_pct_home",
+    "group": "G6_H2H",
+    "description": "H2H: win_pct_home (historico)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "competition_level",
+    "group": "G7_Competition",
+    "description": "Peso de importancia del torneo [0-1]",
+    "range": "[0.3,1.0]",
+    "critical": true
+  },
+  {
+    "feature": "is_knockout",
+    "group": "G7_Competition",
+    "description": "1 = fase eliminatoria",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "is_world_cup",
+    "group": "G7_Competition",
+    "description": "1 = partido de Copa del Mundo",
+    "range": "[0,1]",
+    "critical": true
+  },
+  {
+    "feature": "match_importance",
+    "group": "G7_Competition",
+    "description": "Importancia del partido [comp_level * fase]",
+    "range": "[0.3,1.2]",
+    "critical": false
+  },
+  {
+    "feature": "possession_est_home",
+    "group": "G8_Advanced",
+    "description": "Posesion estimada local (proxy ELO)",
+    "range": "[0.3,0.7]",
+    "critical": false
+  },
+  {
+    "feature": "possession_est_away",
+    "group": "G8_Advanced",
+    "description": "Posesion estimada visitante (proxy ELO)",
+    "range": "[0.3,0.7]",
+    "critical": false
+  },
+  {
+    "feature": "xg_est_home",
+    "group": "G8_Advanced",
+    "description": "xG estimado local (forma + ajuste oponente)",
+    "range": "[0.1,6]",
+    "critical": true
+  },
+  {
+    "feature": "xg_est_away",
+    "group": "G8_Advanced",
+    "description": "xG estimado visitante",
+    "range": "[0.1,6]",
+    "critical": true
+  },
+  {
+    "feature": "attack_pressure_home",
+    "group": "G8_Advanced",
+    "description": "Presion atacante estimada (varianza goles)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "attack_pressure_away",
+    "group": "G8_Advanced",
+    "description": "Presion atacante estimada (varianza goles)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "temperature_avg",
+    "group": "G9_Climate",
+    "description": "Clima estimado por pais: temperature_avg",
+    "range": "[0,100]",
+    "critical": false
+  },
+  {
+    "feature": "humidity_avg",
+    "group": "G9_Climate",
+    "description": "Clima estimado por pais: humidity_avg",
+    "range": "[0,100]",
+    "critical": false
+  },
+  {
+    "feature": "precipitation_prob",
+    "group": "G9_Climate",
+    "description": "Clima estimado por pais: precipitation_prob",
+    "range": "[0,100]",
+    "critical": false
+  },
+  {
+    "feature": "weather_severity",
+    "group": "G9_Climate",
+    "description": "Clima estimado por pais: weather_severity",
+    "range": "[0,100]",
+    "critical": false
+  },
+  {
+    "feature": "momentum_home",
+    "group": "G10_Psychology",
+    "description": "Momentum ponderado reciente (local)",
+    "range": "[-1,1]",
+    "critical": true
+  },
+  {
+    "feature": "momentum_away",
+    "group": "G10_Psychology",
+    "description": "Momentum ponderado reciente (visitante)",
+    "range": "[-1,1]",
+    "critical": true
+  },
+  {
+    "feature": "confidence_index_home",
+    "group": "G10_Psychology",
+    "description": "Indice confianza (ratio goles/partidos)",
+    "range": "[0,5]",
+    "critical": true
+  },
+  {
+    "feature": "confidence_index_away",
+    "group": "G10_Psychology",
+    "description": "Indice confianza visitante",
+    "range": "[0,5]",
+    "critical": true
+  },
+  {
+    "feature": "pressure_home",
+    "group": "G10_Psychology",
+    "description": "Partidos sin victoria en ultimos 5 (presion)",
+    "range": "[0,5]",
+    "critical": false
+  },
+  {
+    "feature": "pressure_away",
+    "group": "G10_Psychology",
+    "description": "Presion visitante",
+    "range": "[0,5]",
+    "critical": false
+  },
+  {
+    "feature": "home_win_rate_overall",
+    "group": "G11_Patterns",
+    "description": "Tasa historica acumulada: home_win_rate_overall",
+    "range": "[0,1]",
+    "critical": true
+  },
+  {
+    "feature": "away_win_rate_overall",
+    "group": "G11_Patterns",
+    "description": "Tasa historica acumulada: away_win_rate_overall",
+    "range": "[0,1]",
+    "critical": true
+  },
+  {
+    "feature": "home_loss_rate_overall",
+    "group": "G11_Patterns",
+    "description": "Tasa historica acumulada: home_loss_rate_overall",
+    "range": "[0,1]",
+    "critical": true
+  },
+  {
+    "feature": "away_loss_rate_overall",
+    "group": "G11_Patterns",
+    "description": "Tasa historica acumulada: away_loss_rate_overall",
+    "range": "[0,1]",
+    "critical": true
+  },
+  {
+    "feature": "over25_pct_home",
+    "group": "G11_Patterns",
+    "description": "% partidos con Over 2.5 goles (local)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "over25_pct_away",
+    "group": "G11_Patterns",
+    "description": "% partidos con Over 2.5 goles (visitante)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "both_score_pct_home",
+    "group": "G11_Patterns",
+    "description": "% partidos donde ambos anotan",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "both_score_pct_away",
+    "group": "G11_Patterns",
+    "description": "% partidos donde ambos anotan",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "avg_goals_team_home",
+    "group": "G11_Patterns",
+    "description": "Goles promedio historico anotados (local)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "avg_goals_team_away",
+    "group": "G11_Patterns",
+    "description": "Goles promedio historico anotados (visitante)",
+    "range": "[0,inf]",
+    "critical": true
+  },
+  {
+    "feature": "elo_win_prob_home",
+    "group": "G12_Derived",
+    "description": "P(victoria local) segun formula ELO",
+    "range": "[0,1]",
+    "critical": true
+  },
+  {
+    "feature": "elo_win_prob_away",
+    "group": "G12_Derived",
+    "description": "P(victoria visitante) segun ELO",
+    "range": "[0,1]",
+    "critical": true
+  },
+  {
+    "feature": "match_competitiveness",
+    "group": "G12_Derived",
+    "description": "Competitividad del partido (1=muy parejo)",
+    "range": "[0,1]",
+    "critical": true
+  },
+  {
+    "feature": "upset_probability",
+    "group": "G12_Derived",
+    "description": "Prob de sorpresa (favorito es derrotado)",
+    "range": "[0,0.5]",
+    "critical": false
+  },
+  {
+    "feature": "expected_total_goals",
+    "group": "G12_Derived",
+    "description": "xG total estimado del partido",
+    "range": "[0,8]",
+    "critical": true
+  },
+  {
+    "feature": "home_away_balance_home",
+    "group": "G12_Derived",
+    "description": "Ratio victorias local/fuera del equipo",
+    "range": "[0,10]",
+    "critical": false
+  },
+  {
+    "feature": "underdog_strength",
+    "group": "G12_Derived",
+    "description": "Superioridad ELO visitante sobre local (0 si local es mejor)",
+    "range": "[0,inf]",
+    "critical": false
+  },
+  {
+    "feature": "goal_balance_diff",
+    "group": "G12_Derived",
+    "description": "Diferencia de balance gol entre equipos",
+    "range": "[-inf,inf]",
+    "critical": true
+  },
+  {
+    "feature": "offensive_pressure_home",
+    "group": "G12_Derived",
+    "description": "Presion ofensiva (goles/match norm)",
+    "range": "[0,1]",
+    "critical": false
+  },
+  {
+    "feature": "offensive_pressure_away",
+    "group": "G12_Derived",
+    "description": "Presion ofensiva visitante",
+    "range": "[0,1]",
+    "critical": false
+  }
+]

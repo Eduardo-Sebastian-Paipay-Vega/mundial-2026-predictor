@@ -1,0 +1,51 @@
+# Entorno virtual — nunca va al contenedor (pip instala desde requirements.txt)
+venv/
+.venv/
+
+# Caches de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Variables de entorno reales (solo va .env.example)
+.env
+
+# Logs generados en runtime
+logs/
+*.log
+catboost_info/
+
+# Artefactos de entrenamiento que no son modelos finales
+reports/
+plots/
+statsbomb_data/
+
+# Archivos de desarrollo / IDE
+.git/
+.gitignore
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Documentacion y notebooks de desarrollo
+README.md
+*.ipynb
+
+# Archivos de optimizacion e informes intermedios
+optuna.log
+ensemble.log
+validation.log
+cv_results.csv
+data_quality_report.json
+features_metadata.json
+model_evaluation.json
+validation_report.json
+best_hyperparams.json
+missing_values_report.json
+simulations_results.json
+features_correlation_matrix.csv
+predictions_detailed.csv
